@@ -1,12 +1,12 @@
 import "../styles/pages/Header.css";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/pages/Header.css";
 import Button from "../components/Button.jsx";
 import { designTheme, socialIcons } from "../data.js";
 import image from "../assets/WhatsApp Image 2025-02-07 at 20.03.05_b7f87930.jpg";
 const Header = () => {
-  const [name, setName] = useState(designTheme);
+  const [name] = useState(designTheme);
   const [nameCount, setNamecount] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {

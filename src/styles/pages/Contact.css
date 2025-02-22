@@ -1,0 +1,76 @@
+@import "../global.css";
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-left input,
+.contact-left textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Poppins", serif;
+  margin-bottom: 7px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  resize: none;
+  background: #f9f9f9;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+.contact-left input:focus,
+.contact-left textarea:focus {
+  border-color: #2575fc;
+  background: #fff;
+}
+
+.contact_button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  background: #2575fc;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 44px;
+  transition: 0.3s;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.contact-right img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.contact-left textarea{
+    height: 200px;
+
+}

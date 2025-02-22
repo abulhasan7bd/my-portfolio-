@@ -1,0 +1,13 @@
+@import "../global.css";
+.global-btn button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 0.75rem 2rem;
+  border-radius: 28px;
+  text-transform: capitalize;
+  color: var(--normalb);
+  background-color: var(--normalx);
+}

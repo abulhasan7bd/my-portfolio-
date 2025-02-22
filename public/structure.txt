@@ -1,0 +1,19 @@
+src  
+ ├── /components  
+ │    ├── Navbar.jsx  
+ │    ├── Footer.jsx  
+ │    ├── ProjectCard.jsx  
+ │    ├── Button.jsx  
+ │  
+ ├── /pages  
+ │    ├── Home.jsx  
+ │    ├── About.jsx  
+ │    ├── Projects.jsx  
+ │    ├── Contact.jsx  
+ │  
+ ├── /assets  
+ │    ├── images  
+ │    ├── styles.css  
+ │  
+ ├── App.jsx  
+ ├── main.jsx  

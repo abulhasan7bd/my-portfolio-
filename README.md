@@ -30,16 +30,12 @@ cd your-portfolio
 npm install
 npm start
 
-
-
-
-## 📩 Contact Me
+## 📩 Contact Me  
 I am always available for freelance projects, collaborations, and job opportunities. Feel free to reach out to me!
 
-📧 **Email:** [abulhasem7bd@gmail.com](mailto:abulhasem7bd@gmail.com)
-💼 **LinkedIn:** [linkedin.com/in/dummy-profile](https://www.linkedin.com/in/abul-hasem-a6931a317/)
-📌 **GitHub:** [github.com/dummy-user](https://github.com/abulhasan7bd)
+📧 **Email:** [abulhasem7bd@gmail.com](mailto:abulhasem7bd@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/abul-hasem-a6931a317](https://www.linkedin.com/in/abul-hasem-a6931a317/)  
+📌 **GitHub:** [github.com/abulhasan7bd](https://github.com/abulhasan7bd)  
 🌍 **Portfolio:** [abulhasem.netlify.app](https://abulhasem.netlify.app/)
 
-Looking forward to working with you! 🚀
-```
+### 🚀 [**Go to My Profile**](https://abulhasem.netlify.app)  

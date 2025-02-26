@@ -1,4 +1,11 @@
-export const navLinks = ["home","about", "contact", "project"];
+export const navLinks = [
+  "home",
+  "about",
+  "contact",
+  "skils",
+  "service",
+  "project",
+];
 export const socialIcons = [
   { link: "www.google.com", icon: "ri-facebook-line" },
   { link: "www.google.com", icon: "ri-linkedin-fill" },

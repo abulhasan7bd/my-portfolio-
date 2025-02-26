@@ -1,23 +1,31 @@
 @import "../global.css";
+.contact {
+  height: 90vh;
+}
 .contact-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  gap: 2rem;
 }
 
 .contact-left {
   flex: 1;
   min-width: 300px;
 }
-
+.section-title i{
+  opacity: 0.3;
+}
 .contact-left form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.contact-left form div {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .contact-left input,
@@ -53,24 +61,44 @@
   background: #2575fc;
   letter-spacing: 2px;
   color: white;
-  border-radius: 44px;
+  border-radius: 8px;
+  width: 200px;
   transition: 0.3s;
+  margin-left: auto;
+  margin-top: 10px;
+  transition: 0.3s linear;
 }
 
+.contact_button:hover {
+  scale: 1.1;
+}
 .contact-right {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
   min-width: 300px;
+  cursor: pointer;
 }
 
 .contact-right img {
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
+  transform: translateY(-2rem);
+  border: 1px solid var(--normalx);
+}
+.contact-right:hover .contact-right img {
+  transform: scale(1.1);
 }
 
-.contact-left textarea{
-    height: 200px;
+.contact-left textarea {
+  height: 200px;
+}
+
+h2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 
 }
+

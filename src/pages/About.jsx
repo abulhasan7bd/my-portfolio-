@@ -6,7 +6,9 @@ const About = () => {
     <section className="about">
       <div className="container">
         <div className="about-content">
-          <h1 className="section-title">About Me</h1>
+          <h1 className="section-title">
+            About Me <i class="ri-arrow-right-line"></i>
+          </h1>
           <div className="about-info">
             <div className="about-left">
               <h2>
@@ -34,12 +36,14 @@ const About = () => {
               <div>
                 <p>Email</p>
                 <span>:</span>
-                <a href="abulhasan@7bd@gmail.com">abulhasan@gmail.com</a>
+                <a href="abulhasan@7bd@gmail.com" className="gmailLink">
+                  abulhasan@gmail.com
+                </a>
               </div>
               <div>
                 <p>Age </p>
                 <span>:</span>
-                <samp>19</samp>
+                <span>19</span>
               </div>
               <div>
                 <p>Form </p>

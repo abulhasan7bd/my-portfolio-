@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "../global.css";
-nav {
-  /* background-color: red; */
-}
-nav .content {
-  width: 1000px;
-  left: 0;
+
+.nav-content {
+   left: 0;
+  background-color: #f8f6fc;
   right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
-  font-family: "Raleway", serif;
+  padding: 16px 2%;
+   font-family: "Montserrat", serif;
   height: 13vh;
   width: 100%;
 }
@@ -19,14 +17,10 @@ nav .content {
 .nav-logo h2 a {
   font-weight: 800;
   cursor: pointer;
-  letter-spacing: 3px;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: var(--normalb);
 }
 
-.nav-logo h2 span {
-  color: var(--normalx);
-}
 .nav-right {
   display: flex;
   gap: 4rem;
@@ -37,7 +31,7 @@ nav .content {
 ul {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 .nav-links a {
   cursor: pointer;
@@ -47,7 +41,8 @@ ul {
   text-transform: capitalize;
   color: var(--normalb);
   transition: color 0.2s linear;
+  font-family: "Montserrat", serif;
 }
 .nav-links a:hover {
-  color: var(--normalx);
+  color: #f41a4a;
 }

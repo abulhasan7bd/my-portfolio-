@@ -1,0 +1,67 @@
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 100px 0 1rem 0;
+  text-align: center;
+  font-family: "Poppins", serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-colums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+
+.footer-colum h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: left;  font-family: "Ubuntu", serif;
+
+}
+
+.footer-colum p {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+}
+.contact-f {
+  display: flex;
+  flex-direction: column;
+}
+.contact-f ul {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 18px;
+}
+.contact-f ul li {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer-social button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.footer-social button:hover {
+  color: #1da1f2;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 2rem;
+}

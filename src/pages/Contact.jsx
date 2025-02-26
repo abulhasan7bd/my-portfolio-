@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/pages/Contact.css";
+import contact from "../assets/contact.png";
 const Contact = () => {
   return (
     <section className="contact">
       <div className="container">
         <div className="contact-content">
-          <h1 className="section-title">Contact Me</h1>
+          <h1 className="section-title">Contact Me 
+          <i class="ri-arrow-right-line"></i>
+          </h1>
           <div className="contact-info">
             <div className="contact-left">
               <form>
@@ -25,10 +28,7 @@ const Contact = () => {
               </form>
             </div>
             <div className="contact-right">
-              <img
-                src="https://img.freepik.com/premium-vector/automated-mail-service-with-ai-digital-helpdesk-support-robot-from-open-envelope_1135642-348.jpg?uid=R90026751&ga=GA1.1.1322734213.1735572178&semt=ais_hybrid"
-                alt=""
-              />
+              <img src={`${contact}`} alt="" />
             </div>
           </div>
         </div>

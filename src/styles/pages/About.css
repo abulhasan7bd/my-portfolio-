@@ -1,3 +1,5 @@
+.about{
+ }
 .about-content {
   font-family: "Poppins", serif;
   padding: 5rem 0;
@@ -6,6 +8,7 @@
   display: flex;
   gap: 4rem;
   align-items: center;
+   margin-top: 2rem;
 }
 .about-left {
   flex: 2;
@@ -22,4 +25,16 @@
 }
 .about-right div p {
   width: 70px;
+}
+.about-right div span:nth-of-type(1) {
+  padding: 0 5px;
+}
+.about-right div span a{
+ background-color: red;
+}
+.about-left p{
+  margin-bottom: 1rem;
+}
+.gmailLink{
+  color: black;
 }
